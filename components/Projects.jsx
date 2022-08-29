@@ -14,7 +14,7 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
@@ -25,49 +25,49 @@ const Projects = () => {
             title="Sayre Joan Photography"
             subTitle="SEO"
             backgroundImg={sayreImg}
-            projectUrl="/sayre"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Weather Dashboard"
             subTitle="Utilizes Third-Party API"
             backgroundImg={weatherImg}
-            projectUrl="/weather"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Budget Tracker"
             subTitle="PWA"
             backgroundImg={budgetImg}
-            projectUrl="/budget"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Code Quiz"
             subTitle="Timed Quiz"
             backgroundImg={quizImg}
-            projectUrl="/quiz"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Work Day Scheduler"
             subTitle="Utilizes Third-Party APIs"
             backgroundImg={plannerImg}
-            projectUrl="/planner"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Tech Blog"
             subTitle="MVC"
             backgroundImg={techBlogImg}
-            projectUrl="/techBlog"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Bounty Book"
             subTitle="MERN Stack"
             backgroundImg={bountyImg}
-            projectUrl="/bounty"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Portfolio (Class Project)"
             subTitle="React JS"
             backgroundImg={portfolioImg}
-            projectUrl="/classPortfolio"
+            projectUrl="/property"
           />
         </div>
       </div>
