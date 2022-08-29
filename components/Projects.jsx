@@ -25,49 +25,49 @@ const Projects = () => {
             title="Sayre Joan Photography"
             subTitle="SEO"
             backgroundImg={sayreImg}
-            projectUrl="/property"
+            projectUrl="/sayre"
           />
           <ProjectItem
             title="Weather Dashboard"
             subTitle="Utilizes Third-Party API"
             backgroundImg={weatherImg}
-            projectUrl="/property"
+            projectUrl="/weather"
           />
           <ProjectItem
             title="Budget Tracker"
             subTitle="PWA"
             backgroundImg={budgetImg}
-            projectUrl="/property"
+            projectUrl="/budget"
           />
           <ProjectItem
             title="Code Quiz"
             subTitle="Timed Quiz"
             backgroundImg={quizImg}
-            projectUrl="/property"
+            projectUrl="/code"
           />
           <ProjectItem
             title="Work Day Scheduler"
             subTitle="Utilizes Third-Party APIs"
             backgroundImg={plannerImg}
-            projectUrl="/property"
+            projectUrl="/scheduler"
           />
           <ProjectItem
             title="Tech Blog"
             subTitle="MVC"
             backgroundImg={techBlogImg}
-            projectUrl="/property"
+            projectUrl="/techBlog"
           />
           <ProjectItem
             title="Bounty Book"
             subTitle="MERN Stack"
             backgroundImg={bountyImg}
-            projectUrl="/property"
+            projectUrl="/bounty"
           />
           <ProjectItem
             title="Portfolio (Class Project)"
             subTitle="React JS"
             backgroundImg={portfolioImg}
-            projectUrl="/property"
+            projectUrl="/classPortfolio"
           />
         </div>
       </div>

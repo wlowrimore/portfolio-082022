@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 import Image from "next/image";
 import Link from "next/link";
+
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -8,6 +10,30 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
+
+  const router = useRouter()
+
+  useEffect(() => {
+    if (
+      router.asPath === '/bounty' ||
+      router.asPath === '/budget' ||
+      router.asPath === '/classPortfolio' ||
+      router.asPath === '/code' ||
+      router.asPath === '/sayre' ||
+      router.asPath === '/scheduler' ||
+      router.asPath === '/techBlog' ||
+      router.asPath === '/weather'
+    ) {
+      setNavBg('transparent')
+      setLinkColor('#ecf0f3')
+    } else {
+      setNavBg('#ecf0f3')
+      setLinkColor('#1f2937')
+
+    }
+  }, [router])
 
   const handleNav = () => {
     setNav(!nav);
@@ -26,6 +52,7 @@ const Navbar = () => {
 
   return (
     <div
+    style={{backgroundColor: `${navBg}`}}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -43,7 +70,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}`}} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
