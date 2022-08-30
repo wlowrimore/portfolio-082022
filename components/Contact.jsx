@@ -41,16 +41,16 @@ const Contact = () => {
 
               <div className="flex items-center justify-between py-8">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <a href="https://linkedin.com/in/william-lowrimore-21778310" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <FaGithub />
+                  <a href="https://github.com/wlowrimore" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <AiOutlineMail />
+                  <a href="/#contact" target="_blank" rel="noopener noreferrer"><AiOutlineMail /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <a href="/#resume" target="_blank" rel="noopener noreferrer"><BsFillPersonLinesFill /></a>
                 </div>
               </div>
             </div>

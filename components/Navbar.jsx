@@ -152,6 +152,9 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">Projects</li>
               </Link>
+              <Link href="/#resume">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">Resume</li>
+              </Link>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">Contact</li>
               </Link>
@@ -162,16 +165,16 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <a href="https://linkedin.com/in/william-lowrimore-21778310" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                  <a href="https://github.com/wlowrimore" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
+                  <a href="/#contact" target="_blank" rel="noopener noreferrer"><AiOutlineMail /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <a href="/#resume" target="_blank" rel="noopener noreferrer"><BsFillPersonLinesFill /></a>
                 </div>
               </div>
             </div>
