@@ -51,8 +51,21 @@ const scheduler = () => {
             is also displayed in real time, so the date will change in real
             time, as well.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://wlowrimore.github.io/vandy-bc-weeklyp-2022/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+
+          <a
+            href="https://github.com/wlowrimore/vandy-bc-weeklyp-2022"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

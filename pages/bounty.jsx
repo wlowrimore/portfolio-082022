@@ -48,8 +48,21 @@ const bounty = () => {
             called, in the homepage, using React with switch case functionality. 
             Bounty Book is Mobile Responsive.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://bountybook.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+
+          <a
+            href="https://github.com/wlowrimore/vandy_bc_project3_bounty-book_MERN_2022"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

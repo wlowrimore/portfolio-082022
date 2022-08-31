@@ -35,8 +35,21 @@ const budget = () => {
             connectivity is detected. This process is made possible by the use
             of a 'service worker' and a local storage in an IndexedDB.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://tranquil-shore-61237.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+
+          <a
+            href="https://github.com/wlowrimore/Vandy-bc-PWA-Budget-Tracker-Chlng-19-2022"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 sm:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-4">

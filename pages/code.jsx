@@ -43,8 +43,21 @@ const code = () => {
             removed. Take the quiz as many times as you would like by using the
             "Go Back" button.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://wlowrimore.github.io/vandy_bc_code_quiz_chlng4_2022/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+
+          <a
+            href="https://github.com/wlowrimore/vandy_bc_code_quiz_chlng4_2022"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 sm:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-4">
